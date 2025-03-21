@@ -1,0 +1,374 @@
+@media screen and (min-width: 1400px) {
+    .chart-box {
+        height: 318px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width:1400px) {
+
+
+    #order-table_wrapper {
+        color: #000;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    #order-table_wrapper::-webkit-scrollbar {
+        width: 5px;
+
+    }
+
+    #order-table_wrapper::-webkit-scrollbar-track {
+        background: #ddd;
+        visibility: hidden;
+    }
+
+    #order-table_wrapper:hover::-webkit-scrollbar-track {
+        visibility: visible;
+    }
+
+    .earn-text h5 {
+        font-size: 12px;
+    }
+
+    .earn-text p {
+        font-size: 12px;
+    }
+
+    .earn-icon {
+        margin-right: 8px;
+    }
+
+    #chartContainer3 {
+        width: 100%;
+        height: 400px;
+    }
+
+    .earn-icon span {
+        width: 32px;
+        height: 32px;
+        line-height: 2.1;
+    }
+
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    /* .earn-item {
+        height: 312px;
+    } */
+
+    .content-wrapper {
+        width: calc(100%);
+        position: relative;
+        z-index: 222;
+        left: 0;
+    }
+
+    .left-side-menu {
+        width: 0;
+        position: absolute;
+        z-index: 999;
+        background: #fff;
+    }
+
+    .left-side-menu.hide {
+        width: 200px;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        z-index: 999;
+    }
+
+    .content-wrapper.hide {
+        width: calc(100% - 0px);
+        position: relative;
+        z-index: 222;
+        transition: 2s;
+    }
+
+    #order-table_wrapper {
+        color: #000;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .earn-view {
+        margin-bottom: 30px;
+    }
+
+    .top-chart-earn {
+        padding: 30px;
+        padding-bottom: 5px;
+    }
+
+    #chartContainer3 {
+        width: 100%;
+        height: 532px;
+    }
+
+    .left-side-menu {
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .admin-item {
+        justify-content: space-around;
+    }
+
+    .all-admin .admin-icon img {
+        max-width: 45px;
+        max-height: 45px;
+    }
+
+
+    #myChart {
+        margin-top: 38px;
+    }
+
+    .content-wrapper {
+        width: calc(100%);
+        position: relative;
+        z-index: 222;
+        left: 0;
+    }
+
+    .left-side-menu {
+        width: 0;
+        position: absolute;
+        z-index: 999;
+        background: #fff;
+    }
+
+    .left-side-menu.hide {
+        width: 200px;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        z-index: 999;
+    }
+
+    .content-wrapper.hide {
+        width: calc(100% - 0px);
+        position: relative;
+        z-index: 222;
+        transition: 2s;
+    }
+
+    #order-table_wrapper {
+        color: #000;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .revinue-item {
+        margin-bottom: 30px;
+    }
+
+    #chartContainer3 {
+        width: 100%;
+        height: 336px;
+    }
+
+    .admin-info p {
+        font-size: 18px;
+    }
+
+    .left-side-menu {
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .admin-item {
+        justify-content: space-around;
+    }
+
+    .all-admin .admin-item {
+        justify-content: space-between;
+    }
+
+    .all-admin .admin-info {
+        margin-bottom: 12px;
+        margin-left: -46%;
+    }
+
+    #myChart {
+        max-width: 300px !important;
+        max-height: 300px !important;
+        margin: auto;
+    }
+
+    .content-wrapper {
+        width: calc(100%);
+        position: relative;
+        z-index: 222;
+        left: 0;
+    }
+
+    .left-side-menu {
+        width: 0;
+        position: absolute;
+        z-index: 999;
+        background: #fff;
+    }
+
+    .left-side-menu.hide {
+        width: 200px;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        z-index: 999;
+    }
+
+    .content-wrapper.hide {
+        width: calc(100% - 0px);
+        position: relative;
+        z-index: 222;
+        transition: 2s;
+    }
+
+    #order-table_wrapper {
+        color: #000;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .earn-view {
+        margin-bottom: 30px;
+    }
+
+    .top-chart-earn {
+        padding: 30px;
+        padding-bottom: 5px;
+    }
+
+    #chartContainer3 {
+        width: 100%;
+        height: 336px;
+    }
+
+    #order-table_info {
+        display: none;
+    }
+
+    #order-table_paginate {
+        margin-top: -30px;
+        display: none;
+    }
+
+    .left-side-menu {
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+    }
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .all-admin .admin-item {
+        justify-content: space-between;
+    }
+
+    .app-search {
+        display: none;
+    }
+
+    .admin-item {
+        justify-content: start;
+    }
+
+    #myChart {
+        margin-top: 50px;
+    }
+
+    #order-table_wrapper {
+        color: #000;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .content-wrapper {
+        width: calc(100%);
+        position: relative;
+        z-index: 222;
+        left: 0;
+    }
+
+    .left-side-menu {
+        width: 0;
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+    }
+
+    .left-side-menu.hide {
+        width: 200px;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+        z-index: 999;
+    }
+
+    .content-wrapper.hide {
+        width: calc(100% - 0px);
+        position: relative;
+        z-index: 222;
+        transition: 2s;
+    }
+
+    .clasic-tab {
+        margin-top: 30px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    #chartContainer3 {
+        width: 100%;
+        height: 300px;
+    }
+
+    #order-table_filter {
+        display: none;
+    }
+
+    #order-table_length {
+        padding-bottom: 0;
+    }
+
+    #order-table_info {
+        display: none;
+    }
+
+    #order-table_paginate {
+        margin-top: -30px;
+        display: none;
+    }
+
+}
