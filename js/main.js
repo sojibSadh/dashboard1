@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// big chart
+// big charts
 const ctx = document.getElementById('myChart');
 const datastore = {
 
