@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         chart.update(Math.random() * 200 - 100);
     });
 
-    // chat2
+    // chat22
     var chart2 = window.chart = new EasyPieChart(document.querySelector('.chart2'), {
         easing: 'easeOutElastic',
         delay: 3000,
